@@ -27,8 +27,19 @@ BÀI TOÁN:
 1. click chuột phải vào database chọn new database
 ![image](https://github.com/user-attachments/assets/b2f1b0ac-424d-452c-b8c9-a60b318c6e38)
 Trong đó :
-  +autogrowth/maxsize : kích thước tăng trưởng của tệp/kích thước tối đa.
-  +Initial Size (MB): Dung lượng khởi tạo ban đầu của tệp (8 MB).
-  +Path: Đường dẫn lưu trữ file vật lý của cơ sở dữ liệu
-
-
+  + Autogrowth/maxsize : kích thước tăng trưởng của tệp/kích thước tối đa.
+  + Initial Size (MB): Dung lượng khởi tạo ban đầu của tệp (8 MB).
+  + Path: Đường dẫn lưu trữ file vật lý của cơ sở dữ liệu.
+  + PRIMARY: Filegroup chính chứa file dữ liệu chính.
+  + Not Applicable: Không áp dụng cho file log.
+2. Tạo bảng
+![image](https://github.com/user-attachments/assets/55f16bfc-9533-4b2e-bfed-1fdc4c0e0f67)
+  Điền thông tin bảng:
+  + Column name : tên cột
+  + Data type : kiểu dữ liệu
+  + Allow Null : Nếu chọn thì có nghĩa là giá trị có thể null
+![image](https://github.com/user-attachments/assets/bf6026c6-3551-4700-aa08-903946382f6a)
+  Chọn khóa chính
+![image](https://github.com/user-attachments/assets/b6dd88b3-b310-4cf5-93b7-9e567fa110c2)
+  Ctrl+S lưu bảng
+![image](https://github.com/user-attachments/assets/1216081e-296e-45d8-afad-712ad218ce01)
