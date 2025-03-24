@@ -24,5 +24,11 @@ BÀI TOÁN:
   + Mỗi bảng cần thiết lập PK, FK(s) và CK(s) nếu cần thiết. (chú ý dấu # và @: # là chỉ PK, @ chỉ FK)
 2. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. lưu tất cả các lệnh SQL trong file: Script_DML.sql
 ## Tạo database, mô tả các tham số (nếu có) trong quá trình
-
+1. click chuột phải vào database chọn new database
 ![image](https://github.com/user-attachments/assets/b2f1b0ac-424d-452c-b8c9-a60b318c6e38)
+Trong đó :
+  +autogrowth/maxsize : kích thước tăng trưởng của tệp/kích thước tối đa.
+  +Initial Size (MB): Dung lượng khởi tạo ban đầu của tệp (8 MB).
+  +Path: Đường dẫn lưu trữ file vật lý của cơ sở dữ liệu
+
+
