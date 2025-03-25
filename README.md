@@ -24,6 +24,7 @@ BÀI TOÁN:
   + Mỗi bảng cần thiết lập PK, FK(s) và CK(s) nếu cần thiết. (chú ý dấu # và @: # là chỉ PK, @ chỉ FK)
 2. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. lưu tất cả các lệnh SQL trong file: Script_DML.sql
 ## Tạo database, mô tả các tham số (nếu có) trong quá trình
+### I.Tạo Database và bảngbảng
 1. click chuột phải vào database chọn new database
 ![image](https://github.com/user-attachments/assets/b2f1b0ac-424d-452c-b8c9-a60b318c6e38)
 Trong đó :
@@ -61,9 +62,9 @@ Trong đó :
 ![image](https://github.com/user-attachments/assets/24272087-f38b-4523-93a1-11e9bed630d9)
   DKMH
 ![image](https://github.com/user-attachments/assets/2b0d744d-7827-451a-aa22-f0dd51f8a2b9)
+### II. Mối quan hệ và điều kiệnkiện
   3.Mối quan hệ
-    
-    Trên thanh công cụ của cửa sổ Design, nhấp chuột phải vào vùng trống và chọn Relationships...
+      Trên thanh công cụ của cửa sổ Design, nhấp chuột phải vào vùng trống và chọn Relationships...
 Một cửa sổ Foreign Key Relationships sẽ hiện lên.
 Nhấp vào nút Add để thêm một mối quan hệ.
 Ở phần Tables and Columns Specifications, nhấp vào dấu ... (dấu ba chấm) ở bên phải.
