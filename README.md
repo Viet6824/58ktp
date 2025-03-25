@@ -24,8 +24,9 @@ BÀI TOÁN:
   + Mỗi bảng cần thiết lập PK, FK(s) và CK(s) nếu cần thiết. (chú ý dấu # và @: # là chỉ PK, @ chỉ FK)
 2. Chuyển các thao tác đồ hoạ trên thành lệnh SQL tương đương. lưu tất cả các lệnh SQL trong file: Script_DML.sql
 ## Tạo database, mô tả các tham số (nếu có) trong quá trình
-### I.Tạo Database và bảngbảng
-1. click chuột phải vào database chọn new database
+### I.Tạo Database và bảng
+#### 1.Database
+  Click chuột phải vào database chọn new database
 ![image](https://github.com/user-attachments/assets/b2f1b0ac-424d-452c-b8c9-a60b318c6e38)
 Trong đó :
   + Autogrowth/maxsize : kích thước tăng trưởng của tệp/kích thước tối đa.
@@ -33,7 +34,7 @@ Trong đó :
   + Path: Đường dẫn lưu trữ file vật lý của cơ sở dữ liệu.
   + PRIMARY: Filegroup chính chứa file dữ liệu chính.
   + Not Applicable: Không áp dụng cho file log.
-2. Tạo bảng
+#### 2. Tạo bảng
 ![image](https://github.com/user-attachments/assets/55f16bfc-9533-4b2e-bfed-1fdc4c0e0f67)
   Điền thông tin bảng:
   + Column name : tên cột
@@ -62,8 +63,8 @@ Trong đó :
 ![image](https://github.com/user-attachments/assets/24272087-f38b-4523-93a1-11e9bed630d9)
   DKMH
 ![image](https://github.com/user-attachments/assets/2b0d744d-7827-451a-aa22-f0dd51f8a2b9)
-### II. Mối quan hệ và điều kiệnkiện
-  3.Mối quan hệ
+### II. Mối quan hệ và điều kiện
+#### 1.Mối quan hệ
 Trên thanh công cụ của cửa sổ Design, nhấp chuột phải vào vùng trống và chọn Relationships...
 Một cửa sổ Foreign Key Relationships sẽ hiện lên.
 Nhấp vào nút Add để thêm một mối quan hệ.
@@ -95,6 +96,26 @@ Khi cập nhật (sửa) dữ liệu của khóa chính trên bảng cha (Primar
   Bảng MaLopHP
 ![image](https://github.com/user-attachments/assets/08dbac0a-208c-4bbf-9c38-92818d4c77ff)
 ![image](https://github.com/user-attachments/assets/302f02ab-e8de-42df-aefb-316b2efca962)
+#### 2.Điều kiện
+Cách Thực hiện
+  - Mở bảng cần chỉnh sửa:
+  Trong Object Explorer, mở Databases → tên cơ sở dữ liệu → Tables.
+Nhấp chuột phải vào bảng cần thêm điều kiện và chọn Design.
+  - Thêm điều kiện (Check Constraint):
+  Nhấp chuột phải vào vùng trống trong Design View và chọn Check Constraints.
+Trong cửa sổ Check Constraints, nhấn Add để thêm ràng buộc mới.
+Trong mục Expression, nhập điều kiện kiểm tra. Ví dụ:
+[Diem] >= 0 AND [Diem] <= 10 (Điểm trong khoảng từ 0 đến 10)
+[Tuoi] >= 18 (Tuổi phải từ 18 trở lên)
+![image](https://github.com/user-attachments/assets/d485c7e5-4c06-414b-a8d7-36867fc09f4f)
+![image](https://github.com/user-attachments/assets/fc686d54-82fb-43fe-9bab-2d03304f8e23)
+![image](https://github.com/user-attachments/assets/93884b03-f740-48e2-a4ac-4c3823cae29d)
+Đặt tên cho ràng buộc trong Constraint Name.
+  - Lưu thay đổi:
+  Nhấn OK để lưu.
+Lưu bảng (Ctrl + S).
+
+
 
 
 
