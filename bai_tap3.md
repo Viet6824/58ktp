@@ -34,7 +34,7 @@ YÊU CẦU:
 ![image](https://github.com/user-attachments/assets/e0e3fa90-cab9-41d8-98a5-dcf786147b4d)
 ![image](https://github.com/user-attachments/assets/de812a32-6a29-4aef-9ac9-02de1ed341ea)
 ## Viết lệnh truy vấn để: Tính được điểm thành phần của 1 sinh viên đang học tại 1 lớp học phần.
-![image](https://github.com/user-attachments/assets/8e32286b-79f7-41e4-bb96-92f5672e276c)
+![image](https://github.com/user-attachments/assets/172af34c-e5ea-448b-9008-4931201d4f56)
 ## Tạo diagram mô tả các PK, FK của db. Chụp hình kết quả các bảng có các đường nối 1-->nhiều
 ![image](https://github.com/user-attachments/assets/e606e4c2-8544-4bc1-a6d6-461b8e0e273a)
 
